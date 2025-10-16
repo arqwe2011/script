@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/cerberus.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/arqwe2011/script/refs/heads/main/cerberus.lua"))()
 
 local window = Library.new("Window") -- Args(<string> Name, <boolean?> ConstrainToScreen)
 
@@ -44,4 +44,5 @@ end) -- Args(<String> Name, <Function> Callback)
 
 section:ColorWheel("ColorWheel", function(color)
    print("ColorWheel color is: "..tostring(color))
+
 end) -- Args(<String> Name, <Function> Callback)
